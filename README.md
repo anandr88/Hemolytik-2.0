@@ -49,7 +49,7 @@ Alternatively, you can download the latest version of the dataset as a ZIP file 
 ## 🌐 Web Server
 
 Access the live web application here:  
-👉 **[https://webs.iiitd.edu.in/raghava/hemopi2/](https://webs.iiitd.edu.in/raghava/hemolytik2/)**
+👉 **[https://webs.iiitd.edu.in/raghava/hemolytik2/](https://webs.iiitd.edu.in/raghava/hemolytik2/)**
 
 - **🎯 Aim and Objective**
 The primary goal of the Hemolytik 2.0 database is to support the scientific community in studying hemolytic peptides. By compiling scattered information on these molecules into a single, comprehensive resource, the platform aims to assist both bioinformaticians and experimental researchers in their work.
@@ -87,8 +87,8 @@ The complete curated dataset of **Hemolytik 2.0** is available for academic use.
 You can download it directly from this repository:
 
 - [`Hemolytik2_complete_data.csv`](https://github.com/anandr88/Hemolytik-2.0/blob/main/Hemolytik2_complete_data.csv)
-- [`Hemolytik2_fasta_sequences.fasta`]([link-to-your-file](https://github.com/anandr88/Hemolytik-2.0/blob/main/Hemolytik2_fasta_sequences.fasta))
-- [`Hemolytik2_MAP_format.fasta`]([link-to-your-file](https://github.com/anandr88/Hemolytik-2.0/blob/main/Hemolytik2_MAP_format.fasta))
+- [`Hemolytik2_fasta_sequences.fasta`](https://github.com/anandr88/Hemolytik-2.0/blob/main/Hemolytik2_fasta_sequences.fasta)
+- [`Hemolytik2_MAP_format.fasta`](https://github.com/anandr88/Hemolytik-2.0/blob/main/Hemolytik2_MAP_format.fasta)
 
 > 📘 **Note:** The dataset is intended for non-commercial, academic, and research purposes only.  
 > Please cite the corresponding publication when using this resource.
