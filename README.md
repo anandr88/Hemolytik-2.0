@@ -86,10 +86,9 @@ The Hemolytik 2.0 website is built on the Bootstrap framework, ensuring that it 
 The complete curated dataset of **Hemolytik 2.0** is available for academic use.  
 You can download it directly from this repository:
 
-- [`Hemolytik2_complete_data.csv`](https://github.com/anandr88/Hemolytik-2.0/blob/main/Hemolytik2_MAP_format.fasta)
-- [`Hemolytik2_fasta_sequences.fasta`](link-to-your-file)
-- [`Hemolytik2_MAP_format.fasta`](link-to-your-file)
-- [`Hemolytik2_chemical_modifications.csv`](link-to-your-file)
+- [`Hemolytik2_complete_data.csv`](https://github.com/anandr88/Hemolytik-2.0/blob/main/Hemolytik2_complete_data.csv)
+- [`Hemolytik2_fasta_sequences.fasta`]([link-to-your-file](https://github.com/anandr88/Hemolytik-2.0/blob/main/Hemolytik2_fasta_sequences.fasta))
+- [`Hemolytik2_MAP_format.fasta`]([link-to-your-file](https://github.com/anandr88/Hemolytik-2.0/blob/main/Hemolytik2_MAP_format.fasta))
 
 > 📘 **Note:** The dataset is intended for non-commercial, academic, and research purposes only.  
 > Please cite the corresponding publication when using this resource.
