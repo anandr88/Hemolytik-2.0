@@ -104,7 +104,7 @@ You can download it directly from this repository:
 | Non-Hemolytic Peptides | 3,626 |
 | Peptides with Non-Natural Amino Acids | 2,678 |
 | Functional Categories | 30+ (Antimicrobial, Anticancer, Antifungal, etc.) |
-| Source Categories | 20+ (Human, Horse, Sheep, Mouse, etc.) |
+| Source Categories | 20 (Human, Horse, Sheep, Mouse, etc.) |
 
 ---
 
