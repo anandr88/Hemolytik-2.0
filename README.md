@@ -10,16 +10,17 @@ The data have been meticulously collected from over 4,533 peer-reviewed publicat
 ![Hemolytik 2.0 Overview](images/hemolytik2_overview.png)
 
 ---
-**✨ Key Features**
-Massive Dataset 📈: Contains 13,215 curated entries for over 7,500 unique peptides.
+## ✨ Key Features
+**Massive Dataset 📈**: Contains 13,215 curated entries for over 7,500 unique peptides.
 
-Rich Annotations 📝: Each entry includes detailed information such as amino acid sequence, biological source, terminal modifications (amidation, acetylation, etc.), stereochemistry (L, D, or mixed amino acids), and structural classification (linear, cyclic, branched, etc.).
+**Rich Annotations 📝**: Each entry includes detailed information such as amino acid sequence, biological source, terminal modifications (amidation, acetylation, etc.), stereochemistry (L, D, or mixed amino acids), and structural classification (linear, cyclic, branched, etc.).
 
-Structural Information 🧬: Provides predicted tertiary structures and SMILES (Simplified Molecular Input Line Entry System) notations for over 10,615 peptides, enabling deep structure-activity relationship studies.
+**Structural Information 🧬**: Provides predicted tertiary structures and SMILES (Simplified Molecular Input Line Entry System) notations for over 10,615 peptides, enabling deep structure-activity relationship studies.
 
-Functional Data 🎯: Includes peptides with diverse biological functions, such as antimicrobial, antibacterial, antifungal, anticancer, and cell-penetrating activities.
+**Functional Data 🎯**: Includes peptides with diverse biological functions, such as antimicrobial, antibacterial, antifungal, anticancer, and cell-penetrating activities.
 
-Focus on Modified Peptides 🧪: A significant portion of the database is dedicated to chemically modified peptides, which are crucial for enhancing therapeutic performance. The database includes information on non-canonical amino acids that are often used to optimize peptide drug candidates.
+**Focus on Modified Peptides 🧪**: A significant portion of the database is dedicated to chemically modified peptides, which are crucial for enhancing therapeutic performance. The database includes information on non-canonical amino acids that are often used to optimize peptide drug candidates.
+
 ---
 ---
 
@@ -39,13 +40,35 @@ Hemolytik 2.0 provides experimentally verified peptide sequences along with deta
 ## 🌐 Web Server
 
 Access the live web application here:  
-👉 **[https://webs.iiitd.edu.in/raghava/hemopi2/](https://webs.iiitd.edu.in/raghava/hemopi2/)**
+👉 **[https://webs.iiitd.edu.in/raghava/hemopi2/](https://webs.iiitd.edu.in/raghava/hemolytik2/)**
 
-The web server offers modules for:
-- **Prediction:** Identify hemolytic potential of peptides.  
-- **Protein Scanning:** Detect hemolytic regions within full-length proteins.  
-- **Motif Scan:** Locate hemolytic and non-hemolytic motifs.  
-- **Design:** Generate and evaluate mutant peptides for reduced hemolytic activity.
+- **🎯 Aim and Objective**
+The primary goal of the Hemolytik 2.0 database is to support the scientific community in studying hemolytic peptides. By compiling scattered information on these molecules into a single, comprehensive resource, the platform aims to assist both bioinformaticians and experimental researchers in their work.
+
+- **🔍 Search Options**
+The database provides powerful search capabilities to help users find the exact information they need:
+
+i) Basic Search: This feature allows you to perform a quick search across the database's major fields. You can search in any single field or across multiple fields simultaneously. It also gives you the flexibility to DISPLAY only the specific fields you are interested in, making the results clean and focused.
+
+ii) Advanced Search: For more complex queries, the advanced search module lets you construct detailed searches using logical operators like AND, OR, and NOT. This enables you to combine multiple criteria to refine your results. You can perform searches on any or all fields and customize the display to show all available information or just a selection of fields.
+
+- **📚 Browse**
+The modules in this section allow you to explore the database in a categorized manner. You can browse through various hemolytic peptides and proteins based on specific properties and categories, making it easy to discover related entries and explore the data systematically.
+
+- **🛠️ Tools**
+Hemolytik 2.0 integrates several web-based tools to facilitate further analysis directly on the platform:
+
+Sequence Similarity Search: Find peptides with similar sequences.
+
+Peptide Mapping: Map specific peptides within larger protein sequences.
+
+Structure Alignment: Compare the 3D structures of different peptides.
+
+- **🔗 API (Application Programming Interface)**
+For developers and bioinformaticians, the Hemolytik 2.0 data is programmatically accessible. You can use simple URLs (RESTful API) to fetch data, allowing for easy integration into your own programs and analysis pipelines.
+
+- **📱 Mobile Compatible Website**
+The Hemolytik 2.0 website is built on the Bootstrap framework, ensuring that it is fully responsive. The layout automatically adjusts to fit the screen size of any device, providing a seamless experience on desktops, tablets, and smartphones.
 
 ---
 
@@ -110,3 +133,19 @@ If you use **Hemolytik 2.0** in your research, please cite:
 └── README.md
 ```
 
+## 📧 Contact & Authors
+For any questions, suggestions, or collaborations, please contact the corresponding author:
+
+**Prof. Gajendra P. S. Raghava**
+
+Email: raghava@iiitd.ac.in
+
+Website: http://webs.iiitd.edu.in/raghava/
+
+The database was developed and is maintained by a dedicated team at the Indraprastha Institute of Information Technology, Delhi, India.
+
+## 📄 License
+This database is made available under the MIT License. You are free to use, share, and adapt the data for any purpose, including commercial use, as long as you provide appropriate attribution.
+
+## 🙏 Acknowledgments
+The development of Hemolytik 2.0 was supported by funding from the Department of Biotechnology (DBT), Government of India. We thank all the researchers whose work has contributed to the data compiled in this resource. 🎉
