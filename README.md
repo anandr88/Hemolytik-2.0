@@ -7,7 +7,7 @@ Hemolytik 2.0 is an updated and significantly expanded version of the original H
 
 The data have been meticulously collected from over 4,533 peer-reviewed publications and established peptide repositories, including APD3, CAMP-R4, UniProt, and DRAMP4.0.
 
-![Hemolytik 2.0 Overview](images/hemolytik2_overview.png)
+![Hemolytik 2.0 Overview](images/HEM_logo_2_22.png)
 
 ---
 ## ✨ Key Features
@@ -22,7 +22,7 @@ The data have been meticulously collected from over 4,533 peer-reviewed publicat
 **Focus on Modified Peptides 🧪**: A significant portion of the database is dedicated to chemically modified peptides, which are crucial for enhancing therapeutic performance. The database includes information on non-canonical amino acids that are often used to optimize peptide drug candidates.
 
 ---
-
+![Hemolytik 2.0 Overview](images/figure2.jpg)
 ## 🔍 Overview
 
 Hemolytik 2.0 provides experimentally verified peptide sequences along with detailed annotations such as:
