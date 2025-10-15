@@ -1,4 +1,4 @@
-# 🧬 Hemolytik 2.0 🩸
+# [🧬 Hemolytik 2.0 🩸](http://webs.iiitd.edu.in/raghava/hemolytik2/)
 
 Welcome to the official data repository for **Hemolytik 2.0**, a comprehensive and manually curated database of experimentally validated hemolytic and non-hemolytic peptides. This resource is designed to support researchers in the rational design and development of safer, more effective therapeutic peptides. 👩‍🔬👨‍🔬
 
@@ -22,7 +22,6 @@ The data have been meticulously collected from over 4,533 peer-reviewed publicat
 **Focus on Modified Peptides 🧪**: A significant portion of the database is dedicated to chemically modified peptides, which are crucial for enhancing therapeutic performance. The database includes information on non-canonical amino acids that are often used to optimize peptide drug candidates.
 
 ---
----
 
 ## 🔍 Overview
 
@@ -37,6 +36,16 @@ Hemolytik 2.0 provides experimentally verified peptide sequences along with deta
 
 ---
 
+💻 How to Download
+You can download the entire dataset by cloning this repository:
+
+Bash
+```
+git clone https://github.com/your-username/hemolytik2.git
+```
+Alternatively, you can download the latest version of the dataset as a ZIP file directly from the "Releases" page. 🚀
+
+---
 ## 🌐 Web Server
 
 Access the live web application here:  
