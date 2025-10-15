@@ -1,12 +1,26 @@
-# 🧬 Hemolytik 2.0
+# 🧬 Hemolytik 2.0 🩸
 
-![Hemolytik 2.0 Overview](https://webs.iiitd.edu.in/raghava/hemolytik2/images/HEM.png)
+Welcome to the official data repository for **Hemolytik 2.0**, a comprehensive and manually curated database of experimentally validated hemolytic and non-hemolytic peptides. This resource is designed to support researchers in the rational design and development of safer, more effective therapeutic peptides. 👩‍🔬👨‍🔬
 
-**Hemolytik 2.0** is a comprehensive, updated database of experimentally validated hemolytic and non-hemolytic peptides.  
-It serves as a valuable resource for understanding peptide-induced hemolysis and for designing safer therapeutic analogs.  
-This release expands upon the original **Hemolytik** database with improved data curation, chemical modification details, and advanced annotations.
+**🔬 About the Database**
+Hemolytik 2.0 is an updated and significantly expanded version of the original Hemolytik database. Peptides are promising therapeutic agents, but their clinical use can be limited by hemotoxicity—the unintended destruction of red blood cells (RBCs). This database provides a centralized platform to explore the complex relationship between a peptide's sequence, structure, chemical modifications, and its hemolytic activity.
+
+The data have been meticulously collected from over 4,533 peer-reviewed publications and established peptide repositories, including APD3, CAMP-R4, UniProt, and DRAMP4.0.
 
 ![Hemolytik 2.0 Overview](images/hemolytik2_overview.png)
+
+---
+**✨ Key Features**
+Massive Dataset 📈: Contains 13,215 curated entries for over 7,500 unique peptides.
+
+Rich Annotations 📝: Each entry includes detailed information such as amino acid sequence, biological source, terminal modifications (amidation, acetylation, etc.), stereochemistry (L, D, or mixed amino acids), and structural classification (linear, cyclic, branched, etc.).
+
+Structural Information 🧬: Provides predicted tertiary structures and SMILES (Simplified Molecular Input Line Entry System) notations for over 10,615 peptides, enabling deep structure-activity relationship studies.
+
+Functional Data 🎯: Includes peptides with diverse biological functions, such as antimicrobial, antibacterial, antifungal, anticancer, and cell-penetrating activities.
+
+Focus on Modified Peptides 🧪: A significant portion of the database is dedicated to chemically modified peptides, which are crucial for enhancing therapeutic performance. The database includes information on non-canonical amino acids that are often used to optimize peptide drug candidates.
+---
 ---
 
 ## 🔍 Overview
@@ -19,8 +33,6 @@ Hemolytik 2.0 provides experimentally verified peptide sequences along with deta
 - **Chemical modifications** (C-terminal amidation, N-terminal acetylation, lipidation, etc.)
 - **Structural and sequence information**
 - **Reference literature (PubMed-linked)**
-
-The database integrates data from multiple public repositories (e.g., PubMed, UniProt, APD, CAMP-R4, DAMPD) and curated literature to ensure reliability and comprehensiveness.
 
 ---
 
@@ -44,6 +56,7 @@ You can download it directly from this repository:
 
 - [`Hemolytik2_complete_data.csv`](link-to-your-file)
 - [`Hemolytik2_fasta_sequences.fasta`](link-to-your-file)
+- [`Hemolytik2_MAP_format.fasta`](link-to-your-file)
 - [`Hemolytik2_chemical_modifications.csv`](link-to-your-file)
 
 > 📘 **Note:** The dataset is intended for non-commercial, academic, and research purposes only.  
@@ -55,12 +68,12 @@ You can download it directly from this repository:
 
 | Category | Count |
 |-----------|-------|
-| Total Peptides | 10,000+ |
-| Hemolytic Peptides | 6,550 |
-| Non-Hemolytic Peptides | 3,450 |
-| Chemically Modified Peptides | 8,348 |
-| Peptides with Non-Natural Amino Acids | 2,548 |
+| Total Peptides | 13,215 |
+| Hemolytic Peptides | 9,589 |
+| Non-Hemolytic Peptides | 3,626 |
+| Peptides with Non-Natural Amino Acids | 2,678 |
 | Functional Categories | 30+ (Antimicrobial, Anticancer, Antifungal, etc.) |
+| Source Categories | 20+ (Human, Horse, Sheep, Mouse, etc.) |
 
 ---
 
@@ -68,19 +81,32 @@ You can download it directly from this repository:
 
 If you use **Hemolytik 2.0** in your research, please cite:
 
-> **Raghava G.P.S.**, *et al.*  
-> **Hemolytik 2.0: A comprehensive resource for hemolytic and non-hemolytic peptides.**  
+ 
+> **Singh, A., Raj SA, K., Rathore, A. S., & Raghava, G. P. S. (2025). Hemolytik2: An Updated Database of Hemolytic Peptides and Proteins.**  
 > [Manuscript under review / Journal name, Year].
 
----
-
-## 🧩 Authors and Contributors
-
-- **Dr. G.P.S. Raghava** – Principal Investigator  
-- **Anand Singh Rathore** – Developer and Curator  
-- **Team Raghava Lab**, IIIT-Delhi
-
----
 
 ## ⚙️ Repository Structure
+
+```
+.
+├── Hemolytik2_complete_data.csv
+├── Hemolytik2_fasta_sequences.fasta
+├── Hemolytik2_chemical_modifications.csv
+├── source/
+│   ├── Human
+│   ├── Horse
+│   └── ...
+├── peptide type/
+│   ├── L
+│   ├── D
+│   ├── Linear
+│   └── ...
+├── function/
+│   ├── Antimicrobial
+│   ├── Antibacterial
+│   ├── Antifungal
+│   └── ...
+└── README.md
+```
 
