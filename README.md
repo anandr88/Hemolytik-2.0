@@ -1,9 +1,11 @@
 # 🧬 Hemolytik 2.0
 
+![Hemolytik 2.0 Overview](webs.iiitd.edu.in/raghava/hemolytik2/images/HEM.png)
 **Hemolytik 2.0** is a comprehensive, updated database of experimentally validated hemolytic and non-hemolytic peptides.  
 It serves as a valuable resource for understanding peptide-induced hemolysis and for designing safer therapeutic analogs.  
 This release expands upon the original **Hemolytik** database with improved data curation, chemical modification details, and advanced annotations.
 
+![Hemolytik 2.0 Overview](images/hemolytik2_overview.png)
 ---
 
 ## 🔍 Overview
