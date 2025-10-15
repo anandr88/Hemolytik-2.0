@@ -7,7 +7,7 @@ Hemolytik 2.0 is an updated and significantly expanded version of the original H
 
 The data have been meticulously collected from over 4,533 peer-reviewed publications and established peptide repositories, including APD3, CAMP-R4, UniProt, and DRAMP4.0.
 
-![Hemolytik 2.0 Overview](images/HEM_logo.png)
+![Hemolytik 2.0 Overview](images/HEM_logo.jpeg)
 
 ---
 ## ✨ Key Features
